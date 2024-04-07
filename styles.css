@@ -1,0 +1,919 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  margin-left: 1rem;
+}
+.li {
+  text-decoration: underline;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.nav-items {
+  display: flex;
+  gap: 15px;
+}
+.nav-items button {
+  padding: 5px 20px 5px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+}
+.hero h1 {
+  padding: 3rem;
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+.hero h1 span {
+  font-weight: bolder;
+  color: black;
+}
+
+.hero-text {
+  display: flex;
+
+  width: 100%;
+}
+.text {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 500;
+  width: 60%;
+  padding: 40px 10px 10px 10px;
+
+  height: 300px;
+}
+
+.circle-text img {
+  width: 300px;
+  height: 300px;
+}
+
+.circle-text {
+  width: 45%;
+}
+
+.vertical {
+  width: 0.5px;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+.network {
+  width: 100%;
+  background-color: #fcbaad;
+  text-align: center;
+  padding: 5% 0 5% 0;
+}
+.network-div1 {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.network-div1 h1 {
+  font-weight: 500;
+  font-size: 4rem;
+}
+.network-div3 {
+  padding: 2px 1px 15px 1px;
+}
+.network-div3 p {
+  font-size: 0.9rem;
+
+  width: 70%;
+  margin: 0 auto;
+}
+.network-div2 {
+  width: 100%;
+
+  margin: 0;
+  padding: 20px 5px 20px 5px;
+}
+.line {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+.hr1 {
+  width: 35%;
+  height: 1px;
+  background-color: #333;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.image-text {
+  width: 387px;
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+.image-text img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+.image-text p {
+  padding-top: 15px;
+  font-size: 1.3rem;
+}
+.forge {
+  width: 100px;
+  height: 70px;
+  border-radius: 30px;
+}
+
+.section-text {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+.section-4 {
+  background-color: black;
+}
+.logo-text-container {
+  color: white;
+  padding: 10px 10px 30px 10px;
+  width: 50%;
+}
+.logo-text-container p {
+  padding: 5px;
+}
+.name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+}
+.textt {
+  padding: 40px;
+  width: 50%;
+  color: white;
+  font-size: 2rem;
+}
+.logo-text {
+  padding: 40px;
+
+  display: flex;
+  gap: 5px;
+}
+.img1 {
+  border-radius: 35px;
+  width: 70px;
+  height: 70px;
+}
+.img2 {
+  width: 35px;
+  height: 70px;
+  background-color: #4942e4;
+
+  border-radius: 50%;
+}
+.img3 {
+  width: 15px;
+  height: 70px;
+  background-color: #f11a7b;
+
+  border-radius: 50%;
+}
+.vertical1 {
+  width: 0.5px;
+
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+.hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid white;
+}
+.button {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.button h2 {
+  font-size: 3rem;
+  padding: 0px 20px 0px 20px;
+}
+.button p {
+  padding: 10px 20% 10px 20%;
+}
+.button button {
+  padding: 5px 20px 5px 20px;
+  background-color: transparent;
+  color: green;
+  border-radius: 30px;
+
+  outline: none;
+  border: 1px solid green;
+}
+.section-5 {
+  background-color: green;
+}
+.membership-heading {
+  text-align: center;
+  padding: 30px;
+}
+.membership-heading h1 {
+  font-size: 4rem;
+  padding: 10px 90px 10px 90px;
+}
+.membership-heading p {
+  padding: 10px 20% 10px 20%;
+}
+.membership-heading button {
+  padding: 5px 20px 5px 20px;
+  margin: 10px;
+  background-color: transparent;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid white;
+}
+.membership-text {
+  display: flex;
+
+  width: 100%;
+}
+.membership-text p {
+  padding: 10px;
+}
+.membership-div1 {
+  text-align: left;
+
+  width: 50%;
+ 
+}
+.membership-div1 img {
+  width: 300px;
+  height: 200px;
+}
+.membership-div2 img {
+  width: 300px;
+  height: 200px;
+
+}
+.membership-div2 {
+  text-align: left;
+ 
+  text-align: left;
+
+  width: 50%;
+  
+}
+.download-container {
+  display: flex;
+ 
+  padding: 30px 20px 30px 20px;
+  background-color: #a5dd9b;
+  
+}
+.image-container {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  
+ 
+
+}
+.download-div1 {
+  padding: 10px;
+  height: 270px;
+  width: 60%;
+
+}
+.download-div1 h1 {
+  font-size: 3rem;
+  padding: 10px;
+}
+.download-div1 p {
+  font-size: 1rem;
+  padding: 10px;
+}
+.image-container1 {
+  background-color: black;
+  width: 140px;
+  height: 55px;
+  color: white;
+  display: flex;
+ 
+  border-radius: 10px;
+
+}
+.image-container1 img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.image-container1 p {
+  padding-top: 5px;
+  font-weight: 10;
+  font-size: 10px;
+}
+
+.image-container1 span {
+  font-size: 1rem;
+}
+.download-img {
+  width: 200px;
+  height: 250px;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.download-div2 {
+  padding: 10px 10px 0px 10px;
+
+  height: 270px;
+  width: 40%;
+}
+.section-6 {
+  display: flex;
+  height: 500px;
+}
+.section-6-div1 {
+  width: 50%;
+  height: 300px;
+  padding: 40px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.section-6-div2 {
+  width: 50%;
+  height: 300px;
+}
+.blog {
+  padding: 20px;
+}
+.blog h1 {
+  padding: 10px;
+}
+
+.blog button {
+  padding: 5px 15px 5px 15px;
+  margin: 60px 20px 20px 20px;
+  border-radius: 25px;
+  border: 1px solid green;
+  color: green;
+  background-color: white;
+}
+.section-7 {
+  display: flex;
+}
+.section-7-div1 {
+  width: 50%;
+  height: 270px;
+  align-items: center;
+  padding-left: 40px;
+}
+.section-7-div1 img {
+  width: 300px;
+  height: 270px;
+ 
+}
+.section-7-div2 {
+  padding: 20px;
+  width: 50%;
+}
+.section-7-div2 h1 {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.section-7-div2 button {
+  padding: 5px 20px 5px 20px;
+  margin: 70px 20px 20px 20px;
+  border-radius: 25px;
+  border: 1px solid green;
+  color: white;
+  background-color: green;
+}
+
+/* Footer styles */
+footer {
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+}
+footer h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+footer ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 10px;
+}
+footer ul li {
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Header styles */
+
+  hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid black;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav ul li {
+    margin-left: 1rem;
+  }
+  .li {
+    text-decoration: underline;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .nav-items {
+    display: flex;
+    gap: 15px;
+  }
+  .nav-items button {
+    padding: 5px 20px 5px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+  }
+
+  /* Hero section styles */
+  .hero {
+    text-align: center;
+  }
+  .hero h1 {
+    padding: 3rem;
+    font-weight: 500;
+    font-size: 3.5rem;
+  }
+  .hero h1 span {
+    font-weight: bolder;
+    color: black;
+  }
+
+  .hero-text {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+  }
+  .text {
+    text-align: left;
+    padding: 40px 10px 0 10px;
+    margin: 20px;
+    width: 50%;
+    line-height: 25px;
+  }
+
+  .circle-text img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .circle-text {
+    padding: 0px;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .vertical {
+    width: 0.5px;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+  }
+  .network {
+    width: 100%;
+    background-color: #fcbaad;
+    text-align: center;
+    padding: 5% 0 5% 0;
+  }
+  .network-div1 {
+    text-align: center;
+
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .network-div1 h1 {
+    font-weight: 500;
+    font-size: 4rem;
+  }
+  .network-div3 {
+    padding: 2px 1px 15px 1px;
+  }
+  .network-div3 p {
+    font-size: 0.9rem;
+
+    width: 70%;
+    margin: 0 auto;
+  }
+  .network-div2 {
+    width: 100%;
+
+    margin: 0;
+    padding: 20px 5px 20px 5px;
+  }
+  .line {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+  }
+  .hr1 {
+    width: 35%;
+    height: 1px;
+    background-color: #333;
+  }
+  .image {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .image-text {
+    width: 387px;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+  }
+  .image-text img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  .image-text p {
+    padding-top: 15px;
+    font-size: 1.3rem;
+  }
+  .forge {
+    width: 100px;
+    height: 70px;
+    border-radius: 30px;
+  }
+
+  .section-text {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+  }
+  .section-4 {
+    background-color: black;
+  }
+  .logo-text-container {
+    color: white;
+    padding: 10px 10px 30px 10px;
+    width: 50%;
+  }
+  .logo-text-container p {
+    padding: 5px;
+  }
+  .name {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+  }
+  .textt {
+    padding: 40px;
+    width: 50%;
+    color: white;
+    font-size: 2rem;
+  }
+  .logo-text {
+    padding: 40px;
+
+    display: flex;
+    gap: 5px;
+  }
+  .img1 {
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+  }
+  .img2 {
+    width: 35px;
+    height: 70px;
+    background-color: #4942e4;
+
+    border-radius: 50%;
+  }
+  .img3 {
+    width: 15px;
+    height: 70px;
+    background-color: #f11a7b;
+
+    border-radius: 50%;
+  }
+  .vertical1 {
+    width: 0.5px;
+
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  .hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid white;
+  }
+  .button {
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .button h2 {
+    font-size: 3rem;
+  }
+  .button p {
+    padding: 10px 20% 10px 20%;
+  }
+  .button button {
+    padding: 5px 20px 5px 20px;
+    background-color: transparent;
+    color: green;
+    border-radius: 30px;
+
+    outline: none;
+    border: 1px solid green;
+  }
+  .section-5 {
+    background-color: green;
+  }
+  .membership-heading {
+    text-align: center;
+    padding: 30px;
+  }
+  .membership-heading h1 {
+    font-size: 3rem;
+    padding: 10px;
+  }
+  .membership-heading p {
+    padding: 10px;
+  }
+  .membership-heading button {
+    padding: 5px 20px 5px 20px;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid white;
+  }
+  .membership-text {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+  }
+  .membership-text p {
+    padding: 10px;
+  }
+  .membership-div1 {
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    width: 50%;
+  }
+  .membership-div1 img {
+    width: 300px;
+    height: 200px;
+  }
+  .membership-div2 img {
+    width: 300px;
+    height: 200px;
+  }
+  .membership-div2 {
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+
+    width: 50%;
+  }
+  .download-container {
+    display: flex;
+    gap: 100px;
+    padding: 30px 20px 30px 20px;
+    background-color: #a5dd9b;
+  }
+  .image-container {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    padding: 30px;
+  }
+  .download-div1 {
+    padding: 10px;
+    height: 270px;
+    width: 50%;
+  }
+  .download-div1 h1 {
+    font-size: 3rem;
+    padding: 10px;
+  }
+  .download-div1 p {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .image-container1 {
+    background-color: black;
+    width: 200px;
+    height: 60px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+  }
+  .image-container1 img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .image-container1 p {
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: small;
+  }
+
+  .image-container1 span {
+    font-size: 1.5rem;
+  }
+  .download-img {
+    width: 200px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  .download-div2 {
+    padding: 10px 10px 0px 10px;
+
+    height: 270px;
+    width: 50%;
+  }
+  .section-6 {
+    display: flex;
+    height: 500px;
+  }
+  .section-6-div1 {
+    width: 50%;
+    height: 300px;
+    padding: 40px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .section-6-div2 {
+    width: 50%;
+    height: 300px;
+  }
+  .blog {
+    padding: 20px;
+  }
+  .blog h1 {
+    padding: 10px;
+  }
+
+  .blog button {
+    padding: 5px 15px 5px 15px;
+    margin: 60px 20px 20px 20px;
+    border-radius: 25px;
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+  }
+  .section-7 {
+    display: flex;
+  }
+  .section-7-div1 {
+    width: 50%;
+    height: 300px;
+    align-items: center;
+    padding-left: 150px;
+  }
+  .section-7-div1 img {
+    width: 300px;
+    height: 270px;
+    margin: 10px;
+  }
+  .section-7-div2 {
+    padding: 20px;
+    width: 50%;
+  }
+  .section-7-div2 h1 {
+    padding: 10px;
+    font-size: 2rem;
+  }
+
+  .section-7-div2 button {
+    padding: 5px 20px 5px 20px;
+    margin: 70px 20px 20px 20px;
+    border-radius: 25px;
+    border: 1px solid green;
+    color: white;
+    background-color: green;
+  }
+
+  /* Footer styles */
+  footer {
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  footer h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 30px;
+  }
+  footer ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 10px;
+  }
+  footer ul li {
+    list-style-type: none;
+    text-decoration: underline;
+  }
+}
+
+/* --- */
